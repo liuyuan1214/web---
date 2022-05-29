@@ -1,0 +1,71 @@
+[
+  {
+    "name": "首页",
+    "path": "/home",
+    "icon": "shouye"
+  },
+  {
+    "name": "农产品",
+    "path": "inputs",
+    "icon": "jiance",
+    "children": [
+      {
+        "name": "农产品",
+        "path": "parterInfo"
+      },
+      {
+        "name": "农产品管理",
+        "path": "parterInfo"
+      },
+      {
+        "name": "农产品类型管理",
+        "path": "customer"
+      }
+    ]
+      
+  },
+  {
+    "name": "溯源",
+    "path": "product",
+    "icon": "shengchan",
+    "children": [
+      {
+        "name": "溯源信息管理",
+        "path": ""
+      },
+      {
+        "name": "新增培育记录",
+        "path": "farm"
+      },
+      {
+        "name": "新增生产包装记录",
+        "path": "packaging"
+      },
+      {
+        "name": "新增质检记录",
+        "path": "self"
+      },
+      {
+        "name": "新增物流记录",
+        "path": "entrust"
+      }
+      
+    ]
+  },
+  {
+    "name": "基础",
+    "path": "base",
+    "icon": "jichu",
+    "children": [
+      {
+        "name": "地块维护",
+        "path": "landInfo"
+      },
+      {
+        "name": "地块维护",
+        "path": "landInfo"
+      }
+     
+    ]
+  }
+]

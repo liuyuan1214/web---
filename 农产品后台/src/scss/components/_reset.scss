@@ -1,0 +1,32 @@
+/*初始化css*/
+
+html {
+  font-family:  "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  background-color: #fff;
+}
+/*reset css*/
+/* 注:div,span是没有margin,padding的 */
+body,button,dd,dl,dt,fieldset,form,
+h1,h2,h3,h4,h5,h6,hr,input,legend,
+li,ol,p,pre,td,textarea,th,ul {margin: 0;padding:0;outline:none;}
+
+h1,h2,h3,h4,h5,h6 {font-size:100%}
+address,cite,dfn,em,var,i{font-style:normal;}
+strong {font-weight:normal;}
+small {font-size:12px}
+ol,ul,li {list-style:none}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+legend{color:#000}
+button,input,select,textarea{font-size:100%}
+table {border-collapse:collapse;border-spacing:0;}
+a{text-decoration: none;}
+
+* {
+    padding:0px;
+    margin:0px;
+}

@@ -1,0 +1,21 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+@keyframes bounceInRight {
+        from, 60%, 75%, 90%, to {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+        0% {opacity: 0;transform: translateX(30px);}
+        99% {opacity: 1;transform: translateX(0)};
+        100% {opacity: 1;transform: none};
+}
+
+@keyframes bounceInLeft {
+        from, 60%, 75%, 90%, to {animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);}
+        0% {opacity: 0;transform: translateX(-50px);}
+        99% {opacity: 1;transform: translateX(0)}
+        100% {opacity: 1;transform: none};
+}

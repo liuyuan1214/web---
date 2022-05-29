@@ -1,0 +1,55 @@
+/*阿里字体图标*/
+
+@font-face {
+  font-family: 'iconfont';  /* project id 986753 */
+  src: url('//at.alicdn.com/t/font_986753_uni4z32vh3t.eot');
+  src: url('//at.alicdn.com/t/font_986753_uni4z32vh3t.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_986753_uni4z32vh3t.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_986753_uni4z32vh3t.woff') format('woff'),
+  url('//at.alicdn.com/t/font_986753_uni4z32vh3t.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_986753_uni4z32vh3t.svg#iconfont') format('svg');
+}
+
+// @font-face {
+//   font-family: 'iconfont';  
+//   src: url('./iconfonts/iconfont.eot');
+//   src: url('./iconfonts/iconfont.eot?#iefix') format('embedded-opentype'),
+//   url('./iconfonts/iconfont.woff') format('woff'),
+//   url('./iconfonts/iconfont.ttf') format('truetype'),
+//   url('./iconfonts/iconfont.svg#iconfont') format('svg');
+// }
+
+  
+  [class^="icon-ny"], [class*="icon-ny"] {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /*
+  * 使用<i class="icon-ny-user"></i>，由于是字体图标可以修改font-size
+  */
+  
+  .icon-ny-user:before { content: "\e674"; }
+  .icon-ny-pwd:before {content: "\e63d";}
+  .icon-ny-yzm:before {content: "\e61b";}
+
+  /*侧边栏的icon*/
+  // .icon-ny-shouye:before {content: "\e65e";}
+  // .icon-ny-caigou:before {content: "\e622";}
+  // .icon-ny-shengchan:before {content: "\e64b";}
+  // .icon-ny-jiance:before {content: "\e7fc";}
+  // .icon-ny-cangku:before {content: "\e666";}
+  // .icon-ny-xiaoshou:before {content: "\e612";}
+  // .icon-ny-tongji:before {content: "\e609";}
+  // .icon-ny-jichu:before {content: "\e625";}
+  // .icon-ny-must:before {content: "\e63b";}
+  .icon-ny-back:before {content: "\e641";}
+  .icon-ny-wx:before {content: "\e623";}
+  
+  
+  
+  
+  

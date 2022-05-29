@@ -1,0 +1,200 @@
+[
+  {
+    "name": "首页",
+    "path": "/home",
+    "icon": "shouye"
+  },
+  {
+    "name": "采购",
+    "path": "purchase",
+    "icon": "caigou",
+    "children": [
+      {
+        "name": "外来采购",
+        "path": ""
+      },
+      {
+        "name": "原料采购",
+        "path": "farmproducts"
+      },
+      {
+        "name": "加工包装",
+        "path": "packagingout"
+      },
+      {
+        "name": "产品挂码",
+        "path": "hangingCodeout"
+      },
+      {
+        "name": "企业自检",
+        "path": "selfout"
+      },
+      {
+        "name": "委托检测",
+        "path": "entrustout"
+      },
+      {
+        "name": "原料供应商",
+        "path": "parterInfoout"
+      }
+    ]
+  },
+  {
+    "name": "生产",
+    "path": "product",
+    "icon": "shengchan",
+    "children": [
+      {
+        "name": "基地生产",
+        "path": ""
+      },
+      {
+        "name": "农事记录",
+        "path": "farm"
+      },
+      {
+        "name": "加工包装",
+        "path": "packaging"
+      },
+      {
+        "name": "产品挂码",
+        "path": "hangingCode"
+      },
+      {
+        "name": "企业自检",
+        "path": "self"
+      },
+      {
+        "name": "委托检测",
+        "path": "entrust"
+      },
+      {
+        "name": "质询信息",
+        "path": "zxInfo"
+      }
+    ]
+  },
+  {
+    "name": "合格证",
+    "path": "certificate",
+    "icon": "dayin",
+    "children": [
+      {
+        "name": "合格证",
+        "path": ""
+      },
+      {
+        "name": "打印合格证",
+        "path": "print"
+      }
+    ]
+  },
+  {
+    "name": "投入品",
+    "path": "inputs",
+    "icon": "jiance",
+    "children": [
+      {
+        "name": "投入品管理",
+        "path": ""
+      },
+      {
+        "name": "投入品维护",
+        "path": "inputMaintain"
+      },
+      {
+        "name": "投入品采购",
+        "path": "inputproducts"
+      },
+      {
+        "name": "投入品领用",
+        "path": "inputApplication"
+      },
+      {
+        "name": "投入品供应商",
+        "path": "parterInfo"
+      },
+      {
+        "name": "设备管理",
+        "path": "customer"
+      }
+    ]
+  },
+  {
+    "name": "销售",
+    "path": "sale",
+    "icon": "xiaoshou",
+    "children": [
+      {
+        "name": "销售管理",
+        "path": ""
+      },
+      {
+        "name": "销售单",
+        "path": "saleList"
+      },
+      {
+        "name": "客户管理",
+        "path": "customer"
+      }
+    ]
+  },
+  {
+    "name": "统计",
+    "path": "count",
+    "icon": "tongji",
+    "children": [
+      {
+        "name": "统计信息",
+        "path": ""
+      },
+      {
+        "name": "销售统计",
+        "path": "sale"
+      },
+      {
+        "name": "农产品成长数据",
+        "path": "input"
+      }
+    ]
+  },
+  {
+    "name": "基础",
+    "path": "base",
+    "icon": "jichu",
+    "children": [
+      {
+        "name": "基础信息",
+        "path": ""
+      },
+      {
+        "name": "主体信息",
+        "path": "mainInfo"
+      },
+      {
+        "name": "企业展示",
+        "path": "display"
+      },
+      {
+        "name": "地块负责人",
+        "path": "landPerson"
+      },
+      {
+        "name": "地块维护",
+        "path": "landInfo"
+      },
+      {
+        "name": "传感器维护",
+        "path": "productionMaintain"
+      },
+      {
+        "name": "传感器历史数据查看",
+        "path": "storeMaintain"
+      },
+      {
+        "name": "打印机维护",
+        "path": "printInfo"
+      }
+    ]
+  }
+]

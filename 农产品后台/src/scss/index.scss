@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* base */
+@import "./components/_reset";
+/* animation */
+@import "./components/_animation";
+/* scroll */
+@import "./components/_scroll-bar";
+/*常用的class */
+@import "./components/_common";
+/* 阿里字体图标 */
+@import "./components/_iconfont";
+/* 修改element的主题样式 */
+@import "./components/element-variables";
+/*修改element的样式 */
+@import "./components/_element";
+
+@import "./components/variables.scss";
