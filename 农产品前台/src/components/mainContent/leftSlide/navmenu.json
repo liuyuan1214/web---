@@ -1,0 +1,43 @@
+[
+  {
+    "name": "首页",
+    "path": "/home",
+    "icon": "shouye"
+  },
+  {
+    "name": "农产品",
+    "path": "inputs",
+    "icon": "jiance",
+    "children": [
+      {
+        "name": "农产品",
+        "path": "parterInfo"
+      },
+      {
+        "name": "农产品管理",
+        "path": "parterInfo"
+      },
+      {
+        "name": "农产品类型管理",
+        "path": "customer"
+      }
+    ]
+      
+  },
+  {
+    "name": "基础",
+    "path": "base",
+    "icon": "jichu",
+    "children": [
+      {
+        "name": "地块维护",
+        "path": "landInfo"
+      },
+      {
+        "name": "地块维护",
+        "path": "landInfo"
+      }
+     
+    ]
+  }
+]
